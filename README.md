@@ -1,6 +1,6 @@
 # mortorq-2019-web
 This is the updated Team1515.org website
-##Installing
+## Installing
 ```
 python start.py
 ```
