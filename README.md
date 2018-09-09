@@ -1,6 +1,11 @@
 # mortorq-2019-web
 This is the updated Team1515.org website
 ## Installing
+Clone the repository
+```
+git clone https://github.com/mortorqrobotics/mortorq-2019-web.git
+```
+Start up the Flask webserver
 ```
 python start.py
 ```
