@@ -24,7 +24,7 @@ python start.py
 
 ### One Command Installation
 ```
-git clone https://github.com/mortorqrobotics/mortorq-2019-web.git && cd mortorq-2019-web && python -m virtualenv env && source env/bin/activate && pip install -r requirements.txt && cd src && python start.py
+git clone https://github.com/mortorqrobotics/mortorq-2019-web.git && cd mortorq-2019-web && python -m virtualenv env || virtualenv env && source env/bin/activate && pip install -r requirements.txt && cd src && python start.py
 ```
 ## Built With
 * [Flask](http://flask.pocoo.org/) - Web Microframework for Python
