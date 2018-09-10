@@ -22,7 +22,7 @@ Start up the Flask webserver
 python start.py
 ```
 
-### One Command Installation
+### One Command Installation (Please have virtualenv installed)
 ```
 git clone https://github.com/mortorqrobotics/mortorq-2019-web.git && cd mortorq-2019-web && python -m virtualenv env || virtualenv env && source env/bin/activate && pip install -r requirements.txt && cd src && python start.py
 ```
