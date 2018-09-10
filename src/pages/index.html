@@ -1,10 +1,11 @@
 {% extends "base.html" %}
 {% set active_page = "home" %}
 {% block content %}
+<div>
 <div id="carouselControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-        <img class="d-block w-100" height=auto media="(min-width:1000px)" src="{{ url_for('static', filename='photo1.jpg') }}" alt="First slide">
+        <img class="d-block w-100" height=auto width=33% media="(min-width:600px)" src="{{ url_for('static', filename='photo1.jpg') }}" alt="First slide">
         <div class="carousel-caption d-md block">
             <h5>Team1515 at Ventura, CA!</h5>
         </div>
@@ -28,4 +29,5 @@
 <br>
 <h3>Our vision is to inspire and empower future leaders to pursue careers in STEM and entrepreneurship!</h3>
 <br>
+</div>
 {% endblock %}
