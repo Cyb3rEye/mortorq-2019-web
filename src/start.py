@@ -9,4 +9,8 @@ def index():
 def about():
     return render_template('about.html')
 
+@app.route('/awards/')
+def awards():
+    return render_template('awards.html')
+
 app.run()

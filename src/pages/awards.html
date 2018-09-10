@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% set active_page = "awards" %}
+{% block content %}
+<h1>Awards</h1>
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" style="color: #FFFFFF;" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          2016-2017
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+          8th Place (Ventura, CA)
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" style="color: #FFFFFF" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          2015-2016
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Judge’s Award (Ventura, CA)
+        <br>
+        8th Place (Las Vegas, NV)
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" style="color: #FFFFFF" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          2014-2015
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        1st Place (Los Angeles, CA)
+        <br>
+        Engineering Inspiration Award (Ventura, CA)
+        <br>
+        Industrial Safety Award (Ventura, CA)
+        <br>
+        7th Place (Ventura, CA)
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingdFour">
+        <h5 class="mb-0">
+        <button class="btn btn-link" style="color: #FFFFFF;" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+            2014-2015
+        </button>
+       </h5>
+     </div>
+
+      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+        <div class="card-body">
+        Regional Chairman’s Award (Las Vegas, NV)
+        <br>
+        Hard Hat Award (Las Vegas, NV)
+        <br>
+        Hard Hat Award (Los Angeles, CA)
+        <br>
+        6th Place (Los Angeles, CA)   
+        </div>
+      </div>
+    </div>
+</div>
+{% endblock %}
