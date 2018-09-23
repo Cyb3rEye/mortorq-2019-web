@@ -111,3 +111,6 @@ dmypy.json
 
 # vim
 **/*.sw[a-p]
+
+# Freeze Build
+src/build
