@@ -10,6 +10,10 @@ def index():
 def about():
     return render_template('about.html')
 
+@app.route('/programming/')
+def programming():
+    return render_template('programming.html')
+
 @app.route('/awards/')
 def awards():
     return render_template('awards.html')
