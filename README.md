@@ -1,11 +1,18 @@
-# mortorq-2019-web
+# Mortorq 2019 Web
 This is the updated Team1515.org website
 ## Installing
 
-### One Command Installation (Please have virtualenv installed)
+### Quick Host + Installation Command (For use if using Flask Server)
 ```
-git clone https://github.com/mortorqrobotics/mortorq-2019-web.git && cd mortorq-2019-web && python -m virtualenv env || virtualenv env && source env/bin/activate && pip install -r requirements.txt && cd src && python start.py
+git clone https://github.com/mortorqrobotics/mortorq-2019-web.git && cd mortorq-2019-web && python -m virtualenv env || virtualenv env && source env/bin/activate && pip install -r requirements.txt && cd src && flask run --port 80
 ```
+
+### To generate full HTML files (For use if using traditional web servers)
+```
+python freeze.py
+```
+
+The build files will be in /src/build
 
 ### Manual Installation
 
